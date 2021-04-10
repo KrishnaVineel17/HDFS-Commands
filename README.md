@@ -36,7 +36,7 @@ Then use the following commands:
 
 12.hdfs dfs -mv <dir_1> <dir_2>        //this command helps us in moving all files from dir_1 to dir_2 within HDFS
 
-13.hdfs dfs -rmdir <directory>        //this command helps us in deleting a dorectory
+13.hdfs dfs -rmdir <directory>        //this command helps us in deleting a directory
 
 14.hdfs dfs -rmr <directory>          //this is a recursive version of delete, which is useful in deleting a non-empty directory
 
