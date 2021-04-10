@@ -9,15 +9,25 @@ HDFS is a highly scalable and reliable storage system for the Big Data platform,
 Some of the useful HDFS commands are mentioned below:
 Initially, start all the Apache Hadoop daemnons by using the following command:
 **start-all.sh**
+
 Then use the following commands:
+
 1. hdfd dfs -mkdir <directory>         //this command helps in creating a new directory
+
 2. hdfs dfs -ls /directory             //this command displays list of all files present in the directory 
+
 3. hdfs dfs -ls /                      //this command helps in displaying all the directories present in HDFS
+
 4. hdfs dfs -cat /directory/sample.txt //this command helps to display the text data present in the sample.txt file.
+
 5. hdfs dfs -touchz /directory/sample.txt  //this command helps to create a file of zero length/an empty file
+
 6. hdfs dfs -copyFromLocal <source_path> <destination_path> //this command helps in copying a file from local file system to HDFS
+
 7. hdfs dfs -put <source_path> <destination_path> // this command helps in copying a file from local file system to HDFS
+
 8. hdfs dfs -copyToLocal <source_path> <destination_path> //this command helps in copying a file from HDFS to local file system
+
 9. hdfs dfs -get <source_path> <destination_path> //this command helps in copying a file from HDFS to local file system
  
 10.hdfs dfs -moveFromLocal <source_path> <destination_path> //this command helps in moving a file from local file system to HDFS
