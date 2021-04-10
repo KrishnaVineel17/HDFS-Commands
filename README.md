@@ -19,10 +19,15 @@ Then use the following commands:
 7. hdfs dfs -put <source_path> <destination_path> // this command helps in copying a file from local file system to HDFS
 8. hdfs dfs -copyToLocal <source_path> <destination_path> //this command helps in copying a file from HDFS to local file system
 9. hdfs dfs -get <source_path> <destination_path> //this command helps in copying a file from HDFS to local file system
+ 
 10.hdfs dfs -moveFromLocal <source_path> <destination_path> //this command helps in moving a file from local file system to HDFS
+
 11.hdfs dfs -cp <dir_1> <dir_2>        //this command helps us in copying all files in dir_1 to dir_2 within HDFS
+
 12.hdfs dfs -mv <dir_1> <dir_2>        //this command helps us in moving all files from dir_1 to dir_2 within HDFS
+
 13.hdfs dfs -rmdir <directory>        //this command helps us in deleting a dorectory
+
 14.hdfs dfs -rmr <directory>          //this is a recursive version of delete, which is useful in deleting a non-empty directory
 
 Finally, to stop all the Apache Hadoop daemons use the following command:
